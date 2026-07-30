@@ -21,13 +21,13 @@ class student:
         print(f"Hi, my name is {self.name}. I'm in {self.grade} grade at {self.school}.")
 
 
-# Creating 4 students, each in a different grade and school
+
 ezra = student("Ezra", "9th", "SLA")
 hunter = student("Hunter", "10th", "Central")
 alex = student("Alex", "11th", "Frankford")
 tya = student("Tya", "12th", "Northeast")
 
-# Test it out
+
 ezra.introduce()
 hunter.introduce()
 alex.introduce()
